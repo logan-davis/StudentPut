@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6D7A2781F323FBE00111DF6 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D7A2771F323FBE00111DF6 /* Student.swift */; };
+		E6D7A27B1F32432200111DF6 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D7A27A1F32432200111DF6 /* StudentController.swift */; };
 		E6E802391F3235F000E204EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E802381F3235F000E204EA /* AppDelegate.swift */; };
 		E6E8023E1F3235F000E204EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E8023C1F3235F000E204EA /* Main.storyboard */; };
 		E6E802401F3235F000E204EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E8023F1F3235F000E204EA /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6D7A2771F323FBE00111DF6 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		E6D7A27A1F32432200111DF6 /* StudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
 		E6E802351F3235EF00E204EA /* StudentPut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentPut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E802381F3235F000E204EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6E8023D1F3235F000E204EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6D7A2791F323FC300111DF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6D7A2771F323FBE00111DF6 /* Student.swift */,
+				E6D7A27A1F32432200111DF6 /* StudentController.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		E6E8022C1F3235EF00E204EA = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				E6E802381F3235F000E204EA /* AppDelegate.swift */,
+				E6D7A2791F323FC300111DF6 /* Models */,
 				E6E8023C1F3235F000E204EA /* Main.storyboard */,
 				E6E8024A1F32360600E204EA /* Resources */,
 			);
@@ -142,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E802391F3235F000E204EA /* AppDelegate.swift in Sources */,
+				E6D7A27B1F32432200111DF6 /* StudentController.swift in Sources */,
+				E6D7A2781F323FBE00111DF6 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +321,7 @@
 				E6E802491F3235F000E204EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
